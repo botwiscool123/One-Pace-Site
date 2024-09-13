@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>One Pace</title>
+    <style>
+      /* Basic styling for the list */
+      ul {
+          list-style-type: none; /* Remove bullet points */
+          padding: 0;
+          margin: 0;
+      }
+
+      /* Main list item */
+      ul li {
+          position: relative;
+          margin: 5px 0;
+      }
+
+      /* Main list link */
+      ul li a {
+          text-decoration: none;
+          padding: 10px;
+          display: inline-block;
+          background-color: #ddd;
+          color: #000;
+          cursor: pointer;
+      }
+
+      /* Arrow icon */
+      .arrow {
+          display: inline-block;
+          left: 290px;
+          cursor: pointer;
+          padding: 10px;
+          position: absolute;
+          background-color: #ccc;
+          border-radius: 5px;
+      }
+
+      /* Sublist (hidden by default) */
+      ul li ul {
+          display: none;
+          padding-left: 20px;
+      }
+
+      /* Sublist items */
+      ul li ul li a {
+          background-color: #f4f4f4;
+          padding: 10px;
+      }
+
+      /* Hover effect for sublist */
+      ul li ul li a:hover {
+          background-color: #ccc;
+      }
+    </style>
+    <script async src="./javascript/index.js"></script>
+  </head>
+  <body>
+    <h1>One Pace!</h1>
+    <h2>Want to watch One Piece? Hate the filler? Here's One Pace!<br> A project made by a talented team of fans meant to cut out the filler and padding included heavily in the long-running series. This site compiles all the 
+      links available so it's easy for you to get started!
+    </h2>
+    <h4 id='date'></h4>
+    <ul>
+      <li>
+        <a href="https://pixeldrain.com/l/HdPqPTPH">Romance Dawn</a>
+        <span class="arrow">&#9660;</span>
+        <ul>
+          <li><a href="https://pixeldrain.com/l/HdPqPTPH#item=0">Episode 01</a></li>
+          <li><a href="https://pixeldrain.com/l/HdPqPTPH#item=1">Episode 02</a></li>
+          <li><a href="https://pixeldrain.com/l/HdPqPTPH#item=2">Episode 03</a></li>
+          <li><a href="https://pixeldrain.com/l/HdPqPTPH#item=3">Episode 04</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="https://pixeldrain.com/l/mY9ec67L">Orange Town</a>
+        <span class="arrow">&#9660;</span>
+        <ul>
+          <li><a href="https://pixeldrain.com/l/mY9ec67L#item=0">Episode 01</a></li>
+          <li><a href="https://pixeldrain.com/l/mY9ec67L#item=1">Episode 02</a></li>
+          <li><a href="https://pixeldrain.com/l/mY9ec67L#item=2">Episode 03</a></li>
+        </ul>      
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/QqXe6SEY">Syrup Village</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/QqXe6SEY#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/QqXe6SEY#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/QqXe6SEY#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/QqXe6SEY#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/QqXe6SEY#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/QqXe6SEY#item=5">Episode 06</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/iiTTYhCg">Gaimon</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/iiTTYhCg#item=0">Episode 01</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/dbL8ujD9">Baratie</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/dbL8ujD9#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/dbL8ujD9#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/dbL8ujD9#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/dbL8ujD9#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/dbL8ujD9#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/dbL8ujD9#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/dbL8ujD9#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/dbL8ujD9#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/dbL8ujD9#item=8">Episode 09</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/nZLW8b72">Arlong Park</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/nZLW8b72#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/nZLW8b72#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/nZLW8b72#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/nZLW8b72#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/nZLW8b72#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/nZLW8b72#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/nZLW8b72#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/nZLW8b72#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/nZLW8b72#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/nZLW8b72#item=9">Episode 10</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/HnL9ip5k">The Adventures of Buggy's Crew</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/HnL9ip5k#item=0">Episode 01</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/Humwo7QP">Loguetown</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/Humwo7QP#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/Humwo7QP#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/Humwo7QP#item=2">Episode 03</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/1kVQHoeo">Reverse Mountain</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/1kVQHoeo#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/1kVQHoeo#item=1">Episode 02</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/xMf7ZMzv">Whisky Peak</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/xMf7ZMzv#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/xMf7ZMzv#item=1">Episode 02</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/Sspa78Sd">The Trials of Koby-Meppo</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/Sspa78Sd#item=0">Episode 01</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/QYHi9mzX">Little Garden</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/QYHi9mzX#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/QYHi9mzX#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/QYHi9mzX#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/QYHi9mzX#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/QYHi9mzX#item=4">Episode 05</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/ayrMbpVW">Drum Island</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/ayrMbpVW#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/ayrMbpVW#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/ayrMbpVW#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/ayrMbpVW#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/ayrMbpVW#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/ayrMbpVW#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/ayrMbpVW#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/ayrMbpVW#item=7">Episode 08</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/apd1qjBN">Arabasta</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=9">Episode 10</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=10">Episode 11</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=11">Episode 12</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=12">Episode 13</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=13">Episode 14</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=14">Episode 15</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=15">Episode 16</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=16">Episode 17</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=17">Episode 18</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=18">Episode 19</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=19">Episode 20</a></li>
+            <li><a href="https://pixeldrain.com/l/apd1qjBN#item=20">Episode 21</a></li>
+          </ul>
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/6G1A3ufN">Jaya</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/6G1A3ufN#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/6G1A3ufN#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/6G1A3ufN#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/6G1A3ufN#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/6G1A3ufN#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/6G1A3ufN#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/6G1A3ufN#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/6G1A3ufN#item=7">Episode 08</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/B3yZ2Yei">Skypiea</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=9">Episode 10</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=10">Episode 11</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=11">Episode 12</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=12">Episode 13</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=13">Episode 14</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=14">Episode 15</a></li>
+            <li><a href="https://pixeldrain.com/l/B3yZ2Yei#item=15">Episode 16</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/RSp1aAPY">Long Ring Long Land</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/RSp1aAPY#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/RSp1aAPY#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/RSp1aAPY#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/RSp1aAPY#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/RSp1aAPY#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/RSp1aAPY#item=5">Episode 06</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/WW5J2jX9">Water Seven</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=9">Episode 10</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=10">Episode 11</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=11">Episode 12</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=12">Episode 13</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=13">Episode 14</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=14">Episode 15</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=15">Episode 16</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=16">Episode 17</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=17">Episode 18</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=18">Episode 19</a></li>
+            <li><a href="https://pixeldrain.com/l/WW5J2jX9#item=19">Episode 20</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/auVnaWWb">Enies Lobby</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=9">Episode 10</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=10">Episode 11</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=11">Episode 12</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=12">Episode 13</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=13">Episode 14</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=14">Episode 15</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=15">Episode 16</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=16">Episode 17</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=17">Episode 18</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=18">Episode 19</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=19">Episode 20</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=20">Episode 21</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=21">Episode 22</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=22">Episode 23</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=23">Episode 24</a></li>
+            <li><a href="https://pixeldrain.com/l/auVnaWWb#item=24">Episode 25</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/ybXdFXtN">Post-Enies Lobby</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/ybXdFXtN#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/ybXdFXtN#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/ybXdFXtN#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/ybXdFXtN#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/ybXdFXtN#item=4">Episode 05</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/HoiVPVa9">Thriller Bark</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=9">Episode 10</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=10">Episode 11</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=11">Episode 12</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=12">Episode 13</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=13">Episode 14</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=14">Episode 15</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=15">Episode 16</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=16">Episode 17</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=17">Episode 18</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=18">Episode 19</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=19">Episode 20</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=20">Episode 21</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=21">Episode 22</a></li>
+            <li><a href="https://pixeldrain.com/l/HoiVPVa9#item=22">Episode 23</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/Br89QGLT">Sabaody Archipelago</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/Br89QGLT#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/Br89QGLT#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/Br89QGLT#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/Br89QGLT#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/Br89QGLT#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/Br89QGLT#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/Br89QGLT#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/Br89QGLT#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/Br89QGLT#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/Br89QGLT#item=9">Episode 10</a></li>
+            <li><a href="https://pixeldrain.com/l/Br89QGLT#item=10">Episode 11</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/eo9wEgfe">Amazon Lily</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/eo9wEgfe#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/eo9wEgfe#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/eo9wEgfe#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/eo9wEgfe#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/eo9wEgfe#item=4">Episode 05</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/B7K3GLhN">Impel Down</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/B7K3GLhN#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/B7K3GLhN#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/B7K3GLhN#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/B7K3GLhN#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/B7K3GLhN#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/B7K3GLhN#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/B7K3GLhN#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/B7K3GLhN#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/B7K3GLhN#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/B7K3GLhN#item=9">Episode 10</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/Sa5AHh5z">The Adventures of the Straw Hat Pirates</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/Sa5AHh5z#item=0">Episode 01</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/1EvkpXLD">Marineford</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=9">Episode 10</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=10">Episode 11</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=11">Episode 12</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=12">Episode 13</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=13">Episode 14</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=14">Episode 15</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=15">Episode 16</a></li>
+            <li><a href="https://pixeldrain.com/l/1EvkpXLD#item=16">Episode 17</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/bN2sHsft">Post-War</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/bN2sHsft#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/bN2sHsft#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/bN2sHsft#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/bN2sHsft#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/bN2sHsft#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/bN2sHsft#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/bN2sHsft#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/bN2sHsft#item=7">Episode 08</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/L43AyDMU">Return to Sabaody</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/L43AyDMU#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/L43AyDMU#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/L43AyDMU#item=2">Episode 03</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/gcFZLsPn">Fishman Island</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=9">Episode 10</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=10">Episode 11</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=11">Episode 12</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=12">Episode 13</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=13">Episode 14</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=14">Episode 15</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=15">Episode 16</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=16">Episode 17</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=17">Episode 18</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=18">Episode 19</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=19">Episode 20</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=20">Episode 21</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=21">Episode 22</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=22">Episode 23</a></li>
+            <li><a href="https://pixeldrain.com/l/gcFZLsPn#item=23">Episode 24</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/JhEhtVpm">Punk Hazard</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=9">Episode 10</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=10">Episode 11</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=11">Episode 12</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=12">Episode 13</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=13">Episode 14</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=14">Episode 15</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=15">Episode 16</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=16">Episode 17</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=17">Episode 18</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=18">Episode 19</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=19">Episode 20</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=20">Episode 21</a></li>
+            <li><a href="https://pixeldrain.com/l/JhEhtVpm#item=21">Episode 22</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/PGjvkoYC">Dressrosa</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=9">Episode 10</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=10">Episode 11</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=11">Episode 12</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=12">Episode 13</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=13">Episode 14</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=14">Episode 15</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=15">Episode 16</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=16">Episode 17</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=17">Episode 18</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=18">Episode 19</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=19">Episode 20</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=20">Episode 21</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=21">Episode 22</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=22">Episode 23</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=23">Episode 24</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=24">Episode 25</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=25">Episode 26</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=26">Episode 27</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=27">Episode 28</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=28">Episode 29</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=29">Episode 30</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=30">Episode 31</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=31">Episode 32</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=32">Episode 33</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=33">Episode 34</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=34">Episode 35</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=35">Episode 36</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=36">Episode 37</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=37">Episode 38</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=38">Episode 39</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=39">Episode 40</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=40">Episode 41</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=41">Episode 42</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=42">Episode 43</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=43">Episode 44</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=44">Episode 45</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=45">Episode 46</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=46">Episode 47</a></li>
+            <li><a href="https://pixeldrain.com/l/PGjvkoYC#item=47">Episode 48</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/ETokmVWr">Zou</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/ETokmVWr#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/ETokmVWr#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/ETokmVWr#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/ETokmVWr#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/ETokmVWr#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/ETokmVWr#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/ETokmVWr#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/ETokmVWr#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/ETokmVWr#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/ETokmVWr#item=9">Episode 10</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/5pVTECas">Whole Cake Island</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=9">Episode 10</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=10">Episode 11</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=11">Episode 12</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=12">Episode 13</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=13">Episode 14</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=14">Episode 15</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=15">Episode 16</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=16">Episode 17</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=17">Episode 18</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=18">Episode 19</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=19">Episode 20</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=20">Episode 21</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=21">Episode 22</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=22">Episode 23</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=23">Episode 24</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=24">Episode 25</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=25">Episode 26</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=26">Episode 27</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=27">Episode 28</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=28">Episode 29</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=29">Episode 30</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=30">Episode 31</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=31">Episode 32</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=32">Episode 33</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=33">Episode 34</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=34">Episode 35</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=35">Episode 36</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=36">Episode 37</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=37">Episode 38</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=38">Episode 39</a></li>
+            <li><a href="https://pixeldrain.com/l/5pVTECas#item=39">Episode 40</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/twsSB1xc">Reverie</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/twsSB1xc#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/twsSB1xc#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/twsSB1xc#item=2">Episode 03</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/du8Dr9rw">Wano</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=9">Episode 10</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=10">Episode 11</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=11">Episode 12</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=12">Episode 13</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=13">Episode 14</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=14">Episode 15</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=15">Episode 16</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=16">Episode 17</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=17">Episode 18</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=18">Episode 19</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=19">Episode 20</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=20">Episode 21</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=21">Episode 22</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=22">Episode 23</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=23">Episode 24</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=24">Episode 25</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=25">Episode 26</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=26">Episode 27</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=27">Episode 28</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=28">Episode 29</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=29">Episode 30</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=30">Episode 31</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=31">Episode 32</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=32">Episode 33</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=33">Episode 34</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=34">Episode 35</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=35">Episode 36</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=36">Episode 37</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=37">Episode 38</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=38">Episode 39</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=39">Episode 40</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=40">Episode 41</a></li>
+            <li><a href="https://pixeldrain.com/l/du8Dr9rw#item=41">Episode 42</a></li>
+          </ul>        
+      </li>
+      <li>
+          <a href="https://pixeldrain.com/l/2nxix7bF">Egghead</a>
+          <span class="arrow">&#9660;</span>
+          <ul>
+            <li><a href="https://pixeldrain.com/l/2nxix7bF#item=0">Episode 01</a></li>
+            <li><a href="https://pixeldrain.com/l/2nxix7bF#item=1">Episode 02</a></li>
+            <li><a href="https://pixeldrain.com/l/2nxix7bF#item=2">Episode 03</a></li>
+            <li><a href="https://pixeldrain.com/l/2nxix7bF#item=3">Episode 04</a></li>
+            <li><a href="https://pixeldrain.com/l/2nxix7bF#item=4">Episode 05</a></li>
+            <li><a href="https://pixeldrain.com/l/2nxix7bF#item=5">Episode 06</a></li>
+            <li><a href="https://pixeldrain.com/l/2nxix7bF#item=6">Episode 07</a></li>
+            <li><a href="https://pixeldrain.com/l/2nxix7bF#item=7">Episode 08</a></li>
+            <li><a href="https://pixeldrain.com/l/2nxix7bF#item=8">Episode 09</a></li>
+            <li><a href="https://pixeldrain.com/l/2nxix7bF#item=9">Episode 10</a></li>
+            <li><a href="https://pixeldrain.com/l/2nxix7bF#item=10">Episode 11</a></li>
+            <li><a href="https://pixeldrain.com/l/2nxix7bF#item=11">Episode 12</a></li>
+            <li><a href="https://pixeldrain.com/l/2nxix7bF#item=12">Episode 13</a></li>
+          </ul>        
+      </li>
+
+    </ul>
+
+    <script>
+      // Get all arrow elements
+      const arrows = document.querySelectorAll('.arrow');
+
+      // Add click event listener to each arrow
+      arrows.forEach(arrow => {
+          arrow.addEventListener('click', function() {
+              const sublist = this.nextElementSibling; // Get the next sibling <ul> (sublist)
+
+              // Toggle the display of the sublist
+              if (sublist.style.display === "block") {
+                  sublist.style.display = "none";
+                  this.innerHTML = "&#9660;"; // Change arrow to down
+              } else {
+                  sublist.style.display = "block";
+                  this.innerHTML = "&#9650;"; // Change arrow to up
+              }
+          });
+      });
+
+      // Ensure all main list items have the same width
+      const listItems = document.querySelectorAll('ul li');
+      let maxWidth = 0;
+
+      // Calculate the width of the longest list item
+      listItems.forEach(item => {
+          const link = item.querySelector('a');
+          if (link.offsetWidth > maxWidth) {
+              maxWidth = link.offsetWidth;
+          }
+      });
+
+      // Set the width of all list items to match the longest one
+      listItems.forEach(item => {
+          const link = item.querySelector('a');
+          link.style.width = `${maxWidth}px`;
+      });
+  </script>
+  </body>
+</html>
