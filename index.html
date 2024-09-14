@@ -4,17 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Pace</title>
+    <link
+            rel="icon"
+            href="logo.png"
+            type="image/x-icon"
+        />
     <style>
-
       body {
-        background-image: url('image.jpg');
+          background-image: url('image.jpg');
+          background-repeat: no-repeat;
+          background-position-x: -1500px;
+          background-color: #a72724;
+          background-position-y: -300px;
       }
 
       /* Basic styling for the list */
       ul {
-          list-style-type: none; /* Remove bullet points */
-          padding: 0;
-          margin: 0;
+        list-style-type: none; /* Remove bullet points */
+        padding: 0;
+        margin: 0;
       }
 
       /* Main list item */
@@ -31,7 +39,18 @@
           background-color: #ddd;
           color: #000;
           cursor: pointer;
+          min-width: 280px;
       }
+
+      /* Main list link */
+      ul li b {
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
+        background-color: #ddd;
+        color: #000;
+        min-width: 280px;
+    }
 
       /* Arrow icon */
       .arrow {
@@ -63,6 +82,11 @@
           padding: 10px;
       }
 
+      ul li ul li b {
+        background-color: #f4f4f4;
+        padding: 10px;
+      }
+
       /* Hover effect for sublist */
       ul li ul li a:hover {
           background-color: #ccc;
@@ -71,8 +95,8 @@
     <script async src="./javascript/index.js"></script>
   </head>
   <body>
-    <h1>One Pace!</h1>
-    <h2>Want to watch One Piece? Hate the filler? Here's One Pace!<br> A project made by a talented team of fans meant to cut out the filler and padding included heavily in the long-running series. This site compiles all the 
+    <h1><img src="logo.png" alt="One Pace" /></h1>
+    <h2>Want to watch One Piece? Hate the filler? Here's One Pace!<br> A project made by a talented team of fans meant to cut out the filler and padding included heavily in the long-running series.<br>This site compiles all the 
       links available so it's easy for you to get started!
     </h2>
     <h4 id='date'></h4>
@@ -166,8 +190,8 @@
           <span class="arrow">&#9660;</span>
           <ul>
             <li><input type="checkbox" class="checkbox" id="checkbox-80"><a href="https://pixeldrain.com/l/Humwo7QP#item=0">Episode 01</a></li>
-            <li><a href="https://pixeldrain.com/l/Humwo7QP#item=1">Episode 02</a></li>
-            <li><a href="https://pixeldrain.com/l/Humwo7QP#item=2">Episode 03</a></li>
+            <li><input type="checkbox" class="checkbox" id="checkbox-81"><a href="https://pixeldrain.com/l/Humwo7QP#item=1">Episode 02</a></li>
+            <li><input type="checkbox" class="checkbox" id="checkbox-82"><a href="https://pixeldrain.com/l/Humwo7QP#item=2">Episode 03</a></li>
           </ul>
       </li>
       <li>
@@ -287,6 +311,9 @@
             <li><input type="checkbox" class="checkbox" id="checkbox-1613"><a href="https://pixeldrain.com/l/B3yZ2Yei#item=13">Episode 14</a></li>
             <li><input type="checkbox" class="checkbox" id="checkbox-1614"><a href="https://pixeldrain.com/l/B3yZ2Yei#item=14">Episode 15</a></li>
             <li><input type="checkbox" class="checkbox" id="checkbox-1615"><a href="https://pixeldrain.com/l/B3yZ2Yei#item=15">Episode 16</a></li>
+            <li><input type="checkbox" class="checkbox" id="checkbox-1616"><b>Original Episodes 183 to 195</b></li>
+            <li><input type="checkbox" class="checkbox" id="checkbox-1617"><b>Original Episode 207</b></li>
+            <li><input type="checkbox" class="checkbox" id="checkbox-1618"><b>Original Episode 225, 2:04 - 3:10</b></li>
           </ul>        
       </li>
       <li>
@@ -743,6 +770,8 @@
             <li><input type="checkbox" class="checkbox" id="checkbox-3539"><a href="https://pixeldrain.com/l/du8Dr9rw#item=39">Episode 40</a></li>
             <li><input type="checkbox" class="checkbox" id="checkbox-3540"><a href="https://pixeldrain.com/l/du8Dr9rw#item=40">Episode 41</a></li>
             <li><input type="checkbox" class="checkbox" id="checkbox-3541"><a href="https://pixeldrain.com/l/du8Dr9rw#item=41">Episode 42</a></li>
+            <li><input type="checkbox" class="checkbox" id="checkbox-1616"><b>Original Episodes 981 - 1028</b></li>
+            <li><input type="checkbox" class="checkbox" id="checkbox-1616"><b>Original Episodes 1031 to 1085</b></li>
           </ul>        
       </li>
       <li>
@@ -750,8 +779,8 @@
           <a href="https://pixeldrain.com/l/2nxix7bF">Egghead</a>
           <span class="arrow">&#9660;</span>
           <ul>
-            <li><input type="checkbox" class="checkbox" id="checkbox-360"><a href="https://pixeldrain.com/l/2nxix7bF#item=0">Episode 01</a></li>
-            <li><input type="checkbox" class="checkbox" id="checkbox-361"><a href="https://pixeldrain.com/l/2nxix7bF#item=1">Episode 02</a></li>
+            <li><input type="checkbox" class="checkbox" id="checkbox-360"><a href="https://pixeldrain.com/u/vEXeBVzJ">Episode 01</a></li>
+            <li><input type="checkbox" class="checkbox" id="checkbox-361"><a href="https://pixeldrain.com/u/kyd7zewv">Episode 02</a></li>
             <li><input type="checkbox" class="checkbox" id="checkbox-362"><a href="https://pixeldrain.com/l/2nxix7bF#item=2">Episode 03</a></li>
             <li><input type="checkbox" class="checkbox" id="checkbox-363"><a href="https://pixeldrain.com/l/2nxix7bF#item=3">Episode 04</a></li>
             <li><input type="checkbox" class="checkbox" id="checkbox-364"><a href="https://pixeldrain.com/l/2nxix7bF#item=4">Episode 05</a></li>
@@ -762,7 +791,7 @@
             <li><input type="checkbox" class="checkbox" id="checkbox-369"><a href="https://pixeldrain.com/l/2nxix7bF#item=9">Episode 10</a></li>
             <li><input type="checkbox" class="checkbox" id="checkbox-3710"><a href="https://pixeldrain.com/l/2nxix7bF#item=10">Episode 11</a></li>
             <li><input type="checkbox" class="checkbox" id="checkbox-3711"><a href="https://pixeldrain.com/l/2nxix7bF#item=11">Episode 12</a></li>
-            <li><input type="checkbox" class="checkbox" id="checkbox-3712"><a href="https://pixeldrain.com/l/2nxix7bF#item=12">Episode 13</a></li>
+            <li><input type="checkbox" class="checkbox" id="checkbox-3712"><a href="https://pixeldrain.com/u/9CxDC3oS">Episode 13</a></li>
           </ul>        
       </li>
 
@@ -823,6 +852,5 @@
       saveCheckboxState(checkbox.id);
     });
     </script>
-
   </body>
 </html>
